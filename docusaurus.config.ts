@@ -5,14 +5,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'RugSafe Documentation',
   tagline: 'A Multichain Protocol for Recovering from and Defending against Rug Pulls',
-  favicon: 'img/rugsafe_character_black_background.png',
+  favicon: 'img/rugsafe.png',
 
   // Set the production url of your site here
-  url: 'https://docs.rugsafe.com',
-  baseUrl: '/rugsafe-docs', // was /
+  url: 'https://docs.rugsafe.io',
+  baseUrl: '/',
 
-  organizationName: 'rugsafe',
-  projectName: 'rugsafedocs',
+  organizationName: 'Rugsafe',
+  projectName: 'rugsafe-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +28,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/rugsafe/rugsafedocs/tree/main/',
+          editUrl: 'https://github.com/Rugsafe/rugsafe-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -38,7 +38,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/rugsafe-social-card.jpg',
+    image: 'img/rugsafe_logo_black_background_with_text.png',
     navbar: {
       title: '',
       logo: {
@@ -53,7 +53,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/rugsafe/rugsafedocs',
+          href: 'https://github.com/Rugsafe/rugsafe-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -89,7 +89,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/rugsafe/rugsafedocs',
+              href: 'https://github.com/Rugsafe/rugsafe-docs',
             },
           ],
         },
